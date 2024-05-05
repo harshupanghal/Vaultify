@@ -23,7 +23,7 @@ const UploadImage = ({reloadEffect}) => {
             setLoading(true)
             const formData = new FormData();
             formData.append("file",file)
-            const url=`http://localhost:3000/api/uploadImage`
+            const url=`https://vaultify-kuth.onrender.com/api/uploadImage`
             const token = localStorage.getItem("token")
             
             const config={
